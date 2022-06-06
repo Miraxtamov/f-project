@@ -1,0 +1,247 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Macan, Arial;
+}
+
+body {
+	background-image: linear-gradient(
+			90deg,
+			rgba(0, 0, 0, 0.81) 17.97%,
+			rgba(0, 0, 0, 0.31) 57.6%,
+			transparent 77.6%
+		),
+		url(https://fiverr-res.cloudinary.com/image/upload/f_png,q_auto/v1/attachments/generic_asset/asset/2b2e0abb8a29000a31dc910da53530c3-1644931333094/404%20page%20-%205.svg);
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 24px 64px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	color: #fff;
+}
+
+/* Main Start */
+main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+  margin-top: 32px;
+  /* margin-bottom: 30px; */
+}
+
+main .title {
+	width: 624px;
+	font-weight: 700;
+	font-size: 40px;
+	color: #ffffff;
+	line-height: 48px;
+	margin-top: 72px;
+}
+
+main .line {
+	width: 55px;
+	height: 3px;
+	margin-top: 40px;
+	margin-bottom: 44px;
+}
+
+.main-descriptions {
+	margin-bottom: 24px;
+}
+
+.main-description-large {
+	font-size: 28px;
+	line-height: 36px;
+	color: #ffffff;
+}
+
+.main-description-small {
+	font-size: 18px;
+	line-height: 26px;
+	color: #ffffff;
+}
+
+.search-form {
+	margin-bottom: 24px;
+	display: flex;
+	align-items: center;
+	height: 45px;
+}
+
+.search-input {
+  width: 524px;
+	height: 100%;
+	text-indent: 12px;
+	border: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 24px;
+	border-radius: 8px 0 0 8px;
+}
+
+.search-icon-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #19a463;
+	border-radius: 0 8px 8px 0;
+	border: 0;
+	padding: 16px;
+	box-sizing: border-box;
+	height: 100%;
+	cursor: pointer;
+}
+
+.popular-categories {
+	display: flex;
+	color: #fafafa;
+	align-items: center;
+}
+
+.popular-categories-header {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
+	margin-bottom: 12px;
+	margin-right: 12px;
+}
+
+.popular-categories-list {
+	font-size: 18px;
+	line-height: 26px;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.popular-categories-item {
+	margin-right: 12px;
+	margin-bottom: 12px;
+	border: 1px solid #fafafa;
+	border-radius: 40px;
+	background: rgba(34, 35, 37, 0.9);
+	padding: 3px 12px;
+	line-height: 1;
+	height: 27px;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.popular-categories-link {
+	text-decoration: none;
+	color: currentColor;
+}
+/* Main End */
+
+/* Footer Start */
+footer {
+	padding-top: 75px;
+}
+/* Footer End */
+
+/* Media Query Start */
+@media (max-width: 1331px) {
+  .container {
+    height: 100%;
+  }
+}
+
+@media (max-width: 899px) {
+	body {
+		overflow-x: hidden;
+		background-image: linear-gradient(
+				180deg,
+				#000 0.21%,
+				rgba(0, 0, 0, 0.8) 34.96%,
+				rgba(0, 0, 0, 0.32) 78.47%,
+				rgba(0, 0, 0, 0.25) 85.43%,
+				rgba(0, 0, 0, 0.75) 99.97% transparent 77.6%
+			),
+			url(https://fiverr-res.cloudinary.com/image/upload/f_png,q_auto/v1/attachments/generic_asset/asset/2b2e0abb8a29000a31dc910da53530c3-1644931333078/404%20page%20-%204.svg);
+	}
+
+	.container {
+		padding: 24px 32px;
+	}
+
+	main .title {
+		margin-top: 32px;
+	}
+
+	footer {
+		text-align: right;
+	}
+}
+
+@media (max-width: 599px) {
+	body {
+		background-image: linear-gradient(
+				180deg,
+				#000 0.21%,
+				rgba(0, 0, 0, 0.8) 34.96%,
+				rgba(0, 0, 0, 0.32) 78.47%,
+				rgba(0, 0, 0, 0.25) 85.43%,
+				rgba(0, 0, 0, 0.75) 99.97%
+			),
+			url(https://fiverr-res.cloudinary.com/image/upload/f_png,q_auto/v1/attachments/generic_asset/asset/2b2e0abb8a29000a31dc910da53530c3-1644931333078/404%20page%20-%204.svg);
+	}
+
+	.container {
+		padding: 20px 16px;
+	}
+
+	main .title {
+    width: 100%;
+		font-size: 28px;
+		line-height: 36px;
+		margin-bottom: 0;
+		margin-top: 32px;
+	}
+
+	main .line {
+		margin-top: 28px;
+		margin-bottom: 28px;
+	}
+
+	.main-description-large {
+		font-size: 20px;
+	}
+
+	.main-description-small {
+		font-size: 16px;
+	}
+
+	.search-input {
+		width: 100%;
+	}
+
+	.popular-categories {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+  footer {
+    padding-top: 127px;
+  }
+}
+
+@media (max-width: 490px) {
+	footer {
+		margin-top: 0;
+		padding-top: 52px;
+	}
+}
+/* Media Query End */
